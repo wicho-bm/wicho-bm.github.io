@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <form class="form-horizontal">
+            <fieldset>
+
+                <!-- Form Name -->
+                <legend>Datos Personales</legend>
+
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="txt_user">Usuario:</label>
+                    <div class="col-md-4">
+                        <input
+                            id="txt_user"
+                            name="txt_user"
+                            type="text"
+                            placeholder="Escribe tu matricula"
+                            class="form-control input-md">
+
+                    </div>
+                </div>
+                <br>
+                <!-- Password input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="txt_pass">Contraseña:</label>
+                    <div class="col-md-4">
+                        <input
+                            id="txt_pass"
+                            name="txt_pass"
+                            type="password"
+                            placeholder="Escribe tu contraseña"
+                            class="form-control input-md">
+
+                    </div>
+                </div>
+                <br>
+                <!-- Button -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="btn_aceptar"></label>
+                    <div class="col-md-4">
+                        <button id="btn_aceptar" name="btn_aceptar" class="btn btn-default">Aceptar</button>
+                    </div>
+                </div>
+                <br>
+                <a href="#">¿Olvidaste tu contraseña?</a>
+            </fieldset>
+
+            <fieldset >
+                <legend>Redes sociales</legend>
+                <a href=""><img width="25px" src="imagenes/fb.png" alt=""></a>
+                <a href=""><img width="25px" src="imagenes/ig.png" alt=""></a>
+                <a href=""><img width="25px" src="imagenes/tw.png" alt=""></a>
+            </fieldset>
+        </form>
+
+        <form class="form-horizontal">
+
+        <h3>Curso Verano</h3>
+    <fieldset>
+        
+        <!-- Form Name -->
+        <legend>Información contacto</legend>
+        <br>
+        <!-- Appended Input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="appendedtext">Correo:</label>
+            <div class="col-md-8">
+                <div class="input-group">
+                    <input
+                        id="appendedtext"
+                        name="appendedtext"
+                        class="form-control"
+                        placeholder="Escribe tu correo electronico:"
+                        type="text">
+                        <span class="input-group-addon">@upslp.edu.mx</span>
+                    </div>
+
+                </div>
+            </div>
+            <br>
+            <!-- Prepended text-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="prependedtext">Intitución:</label>
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <span class="input-group-addon">UPSLP</span>
+                        <input
+                            id="prependedtext"
+                            name="prependedtext"
+                            class="form-control"
+                            placeholder="Escribe tu carrera"
+                            type="text"></div>
+                        <p class="help-block">Ej. ITI, ITEM, ISTI, ITMA, LAG, LMI</p>
+                    </div>
+                </div>
+
+                <!-- Multiple Radios -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="radios">Contacto via WhatsApp</label>
+                    <div class="col-md-4">
+                        <div class="radio">
+                            <label for="radios-0">
+                                <input type="radio" name="radios" id="radios-0" value="1" checked="checked">
+                                    No
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label for="radios-1">
+                                    <input type="radio" name="radios" id="radios-1" value="2">
+                                        SI
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <!-- Text input-->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="textinput">Número celular:</label>
+                            <div class="col-md-4">
+                                <input
+                                    id="textinput"
+                                    name="textinput"
+                                    type="text"
+                                    placeholder="(444) ###-####"
+                                    class="form-control input-md"></div>
+                            </div>
+                            <br>
+                            <!-- Multiple Checkboxes -->
+                            <div class="form-group">
+                                <label class="col-md-4 control-label" for="checkboxes">Asignaturas disponibles:</label>
+                                <div class="col-md-4">
+                                    <div class="checkbox">
+                                        <label for="checkboxes-0">
+                                            <input type="checkbox" name="checkboxes" id="checkboxes-0" value="1">
+                                                Química
+                                            </label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <label for="checkboxes-1">
+                                                <input type="checkbox" name="checkboxes" id="checkboxes-1" value="2">
+                                                    Matemáticas
+                                                </label>
+                                            </div>
+                                            <div class="checkbox">
+                                                <label for="checkboxes-2">
+                                                    <input type="checkbox" name="checkboxes" id="checkboxes-2" value="3">
+                                                        Física
+                                                    </label>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <label for="checkboxes-3">
+                                                        <input type="checkbox" name="checkboxes" id="checkboxes-3" value="4">
+                                                            Ingles
+                                                        </label>
+                                                    </div>
+                                                    <div class="checkbox">
+                                                        <label for="checkboxes-4">
+                                                            <input type="checkbox" name="checkboxes" id="checkboxes-4" value="5">
+                                                                Programación
+                                                            </label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label for="checkboxes-5">
+                                                                <input type="checkbox" name="checkboxes" id="checkboxes-5" value="6">
+                                                                    Nucleó
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <br>
+
+                                                    <!-- Textarea -->
+
+                                                    <div class="form-group">
+                                                        <label class="col-md-4 control-label" for="textarea">Información adicional:</label>
+                                                        <div class="col-md-4">
+                                                            <textarea class="form-control" id="textarea" name="textarea"></textarea>
+                                                        </div>
+                                                    </div>
+
+                                                    <!-- Button (Double) -->
+                                                    <div class="form-group">
+                                                        <label class="col-md-4 control-label" for="button1id"></label>
+                                                        <div class="col-md-8">
+                                                            <button id="button1id" name="button1id" class="btn btn-default">Enviar</button>
+                                                            <button id="button2id" name="button2id" class="btn btn-default">Borrar</button>
+                                                        </div>
+                                                    </div>
+
+                                                </fieldset>
+                                            </form>
+[11:17] Ana Paola Guerrero Ruiz
+<h2>Subway</h2>
+              <form class="form-horizontal">
+                <fieldset>
+               
+                <!-- Form Name -->
+                <legend>Subway</legend>
+               
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="textinput">Cliente:</label>  
+                  <div class="col-md-4">
+                  <input id="textinput" name="textinput" type="text" placeholder="Nombre" class="form-control input-md">
+                   
+                  </div>
+                </div>
+               
+                <!-- Prepended text-->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="prependedtext">Telefono:</label>
+                  <div class="col-md-4">
+                    <div class="input-group">
+                      <span class="input-group-addon">+52</span>
+                      <input id="prependedtext" name="prependedtext" class="form-control" placeholder="(444) 123-4567" type="text">
+                    </div>
+                   
+                  </div>
+                </div>
+               
+                <!-- Select Basic -->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="selectbasic">Variedad:</label>
+                  <div class="col-md-4">
+                    <select id="selectbasic" name="selectbasic" class="form-control">
+                      <option value="1">Pollo</option>
+                      <option value="2">Bistec</option>
+                      <option value="3">Pollo Dulce</option>
+                    </select>
+                  </div>
+                </div>
+               
+                <!-- Select Basic -->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="selectbasic">Pan</label>
+                  <div class="col-md-4">
+                    <select id="selectbasic" name="selectbasic" class="form-control">
+                      <option value="1">Blanco</option>
+                      <option value="2">Integral</option>
+                    </select>
+                  </div>
+                </div>
+               
+                <!-- Multiple Radios -->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="radios">Tamaño:</label>
+                  <div class="col-md-4">
+                  <div class="radio">
+                    <label for="radios-0">
+                      <input type="radio" name="radios" id="radios-0" value="1" checked="checked">
+                      15 cm
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label for="radios-1">
+                      <input type="radio" name="radios" id="radios-1" value="2">
+                      30 cm
+                    </label>
+                  </div>
+                  </div>
+                </div>
+               
+                <!-- Multiple Radios -->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="radios">Término:</label>
+                  <div class="col-md-4">
+                  <div class="radio">
+                    <label for="radios-0">
+                      <input type="radio" name="radios" id="radios-0" value="1" checked="checked">
+                      Caliente
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label for="radios-1">
+                      <input type="radio" name="radios" id="radios-1" value="2">
+                      Tostado
+                    </label>
+                  </div>
+                  </div>
+                </div>
+               
+                <!-- Select Multiple -->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="selectmultiple">Extras:</label>
+                  <div class="col-md-4">
+                    <select id="selectmultiple" name="selectmultiple" class="form-control" multiple="multiple">
+                      <option value="1">Lechuga</option>
+                      <option value="2">Tomate</option>
+                      <option value="3">Cebolla</option>
+                      <option value="4">Jalapeño</option>
+                    </select>
+                  </div>
+                </div>
+               
+                <!-- Select Multiple -->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="selectmultiple">Condimentos</label>
+                  <div class="col-md-4">
+                    <select id="selectmultiple" name="selectmultiple" class="form-control" multiple="multiple">
+                      <option value="1">Sal</option>
+                      <option value="2">Pimienta</option>
+                      <option value="3">BBQ</option>
+                      <option value="4">Mayonesa</option>
+                      <option value="5">Mostaza</option>
+                    </select>
+                  </div>
+                </div>
+               
+                <!-- Select Multiple -->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="selectmultiple">Select Multiple</label>
+                  <div class="col-md-4">
+                    <select id="selectmultiple" name="selectmultiple" class="form-control" multiple="multiple">
+                      <option value="1">Option one</option>
+                      <option value="2">Option two</option>
+                    </select>
+                  </div>
+                </div>
+               
+                <!-- Button -->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="singlebutton"></label>
+                  <div class="col-md-4">
+                    <button id="singlebutton" name="singlebutton" class="btn btn-primary">ORDENAR</button>
+                  </div>
+                </div>
+               
+                </fieldset>
+                </form>
+ 
+                <h3>Comida Rapida</h3>
+                <form>
+                  <table border="3">
+                    <tr><th colspan="4">Subway</th></tr>
+                    <tr>
+                      <th><label class="col-md-4 control-label" for="textinput">Cliente:</label></th>
+                      <td>
+                        <div class="col-md-5">
+                        <input id="name" name="name" type="text" placeholder="Luis BLA BLA" class="form-control input-md">
+                        </td>
+                      <th>
+                      <label class="col-md-4 control-label" for="prependedtext">Telefono:</label>
+                      </th>
+                      <td> 
+                        <input id="name" name="name" type="text" placeholder="666666666666" class="form-control input-md">
+                      </td>
+                    </tr>
+                    <tr>
+                    <th><label class="col-md-4 control-label" for="textinput">Variedad:</label></th>
+                    <td></td>
+                    </tr>
+                  </table>
+                </form>
+      <h3>centro de impresiones</h3>
+      <form action="">
+        <fieldset>
+          <legend>Office Depot</legend>
+          <label for="">Seleccione el archivo</label>
+          <input type="file">
+          <br>
+          <label for="">Seleccione el color de tinta:</label>
+          <input type="color">
+          <LAbel>Cuantas impresiones</LAbel>
+          <input type="number">
+          <br>
+          <label for="">Costo por hoja</label>
+          <input type="text" value="$2.00" readonly>
+          <br>
+          <label for="">Entrega Programada:</label>
+          <br>
+          <label for="">fecha</label><input type="date">
+          <br>
+          <label for="">Hora:</label><input type="time">
+          <input type="submit"><input type="reset">
+        </fieldset>
+      </form>
+      <h3>Sistema de Calificaciones</h3>
+      <h5>Historial acad&eacute;mico</h5>
+      <form action="">
+        <fieldset>
+          <legend>184914 - Luis Enrique Briano Montalvo</legend>
+          <label for="">N&uacute;emero de identificaci&oacute;n:</label>
+          <!--Hidden oculta los campos-->
+          <input type="hidden" value="184914" disabled>
+          <!--Lista de semestres-->
+          <ol>
+            <li>
+              Semestre I <br>
+              <!--Lista de materias del semestres-->
+              <ol type="I">
+                <li>Introducci&oacute;n a las Matemáticas 
+                  <input type="range" min="0" max="10" value="9"></li>
+                <li>Introducci&oacute;n a la F&iacute;sica
+                  <input type="range" min="0" max="10" value="9"></li>
+                <li>Introducci&oacute;n a la Computaci&oacute;n
+                  <input type="range" min="0" max="10" value="9"></li>
+                <li>Taller de Certificaci&oacute;n de Office
+                  <input type="range" min="0" max="10" value="9"></li>
+                <li>N&uacute;cleo Optativo I
+                  <input type="range" min="0" max="10" value="9"></li>
+                <li>Ingl&eacute;s I
+                  <input type="range" min="0" max="10" value="9"></li>
+                <li>Promedio: <input type="number" value="7"></li>
+              </ol>
+            </li>
+            <br>
+            <li>Semestre II <br>
+            <!--Materia del semestre II-->
+              <ol type="I">
+                <li>Mate I
+                  <!--Barra de avance-->
+                  <meter min="0" max="100" value="75"></meter>
+                </li>
+                <li>Fisica I
+                  <meter min="0" max="100" value="40"></meter>
+                </li>
+                <li>Programaci&oacute;n I
+                  <meter min="0" max="100" value="95"></meter>
+                </li>
+                <li>Programaci&oacute;n Web
+                  <meter min="0" max="100" value="60"></meter>
+                </li>
+                <li>N&uacute;cleo Optativo II
+                  <meter min="0" max="100" value="65"></meter>
+                </li>
+                <li>N&uacute;cleo General II
+                  <meter min="0" max="100" value="50"></meter>
+                </li>
+                <li>Promedio: <label for="">7.00</label></li>
+              </ol>
+            </li>
+            <br>
+            <li>Semestre III <br>
+            <!--Materia del semestre III-->
+              <ol type="I">
+                <li>Mate I
+                  <!--Barra de avance-->
+                  <progress min="0" max="100" value="75"></progress>
+                </li>
+                <li>Fisica I
+                  <progress min="0" max="100" value="40"></progress>
+                </li>
+                <li>Programaci&oacute;n I
+                  <progress min="0" max="100" value="95"></progress>
+                </li>
+                <li>Programaci&oacute;n Web
+                  <progress min="0" max="100" value="60"></progress>
+                </li>
+                <li>N&uacute;cleo Optativo II
+                  <progress min="0" max="100" value="65"></progress>
+                </li>
+                <li>N&uacute;cleo General II
+                  <progress min="0" max="100" value="50"></progress>
+                </li>
+                <li>Promedio: <label for="">7.00</label></li>
+              </ol>
+            </li>
+            <br>
+          </ol>
+        </fieldset>
+      </form>
+    </body>
+</html>
