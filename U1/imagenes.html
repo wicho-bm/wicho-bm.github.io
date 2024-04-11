@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>im&aacute;genes</h1>
+    <details>
+        <summary>Resolucion Original</summary>
+        <img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2018/02/Marvel-Studios-10th-Anniversary-Banner.jpg" alt="MCU 10mo">
+    </details>
+    <details>
+        <summary>Resolucion con altura reducida</summary>
+        <img height="250px" src="https://static1.srcdn.com/wordpress/wp-content/uploads/2018/02/Marvel-Studios-10th-Anniversary-Banner.jpg" alt="MCU 10mo">
+    </details>
+    <details>
+        <summary>Resolucion con anchura reducida</summary>
+        <img width="500px" src="https://static1.srcdn.com/wordpress/wp-content/uploads/2018/02/Marvel-Studios-10th-Anniversary-Banner.jpg" alt="MCU 10mo">
+    </details>
+    <details>
+        <summary>Imagen con anchura(automatica)</summary>
+        <!--ancho  automático al cuadro(box) que abarca en este caso el body-->
+        <img width="100%" src="https://static1.srcdn.com/wordpress/wp-content/uploads/2018/02/Marvel-Studios-10th-Anniversary-Banner.jpg" alt="MCU 10mo">
+    </details>
+    <!--Encuadrar una imagen con su respectiva descripción-->
+    <details>
+        <summary>Imagen con anchura(automatica)</summary>
+        <figure>
+            <img width="50%" src="https://static1.srcdn.com/wordpress/wp-content/uploads/2018/02/Marvel-Studios-10th-Anniversary-Banner.jpg" alt="MCU 10mo">
+            <figcaption>Figura 1: D&eacute;cimo Marvel-Studios-10th-Anniversary-Banner</figcaption>
+        </figure>
+    </details>
+
+    <details>
+        <summary>Imagen con enlace link</summary>
+        <figure>
+            <a target="_blank" href="https://static1.srcdn.com/wordpress/wp-content/uploads/2018/02/Marvel-Studios-10th-Anniversary-Banner.jpg">
+                <img width="50%" src="imagenes/marvelstudios.png" alt="MCU logo">
+            </a>
+            <figure>Clic en el logo para ver el poster</figure>
+        </figure>
+    </details>
+    <h1>Mapa con Imagenes</h1>
+    <details>
+        <summary>Overwatch 2</summary>
+        <img  usemap="#personajes" src="imagenes/Overwatch_Heroes.jpg" alt="">
+        <map  name="personajes">
+            <!--area shape(area) coords[x1,y1,x2,y2]x1,y1 son la esquina superior izquierda y x2,y2 son la esquina inferior derecha-->
+            <area shape="rect" coords="310,194,387,291" target="_blank" href="https://overwatch.blizzard.com/es-es/heroes/junker-queen/" alt="JUNKER QUEEN">
+        </map>
+    </details>
+</body>
+</body>
+</html>
