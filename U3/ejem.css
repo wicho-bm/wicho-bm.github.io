@@ -1,0 +1,107 @@
+h1 {text-align: center;}
+p {text-align: justify;}
+#hTitulo {color: darkorange; background-color: black;}
+
+.vt323 {
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#grandcolores_1 {background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); }
+
+#grandcolores_2 {background-image: radial-gradient(red,orange,yellow,green,blue, indigo, violet); }
+
+.button{
+    color: white;
+    background-color: #04AA6D;
+    border: 5px;
+    border-radius: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 40px 20px;
+    padding: 15px 32px;
+    display: inline-block;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.button:hover{
+    color: #04AA6D;
+    background-color: paleturquoise;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted crimson;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    width: 125px;
+    text-align: center;
+    padding: 2px;
+    border: 1px solid gray;
+    background-color: #04AA6D;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+ul{list-style: none; padding-left: 10px;}
+ul li:nth-child(odd) {background-color: lightcoral; color: white;}
+ul li:nth-child(even) {background-color: lightgrey; color: white;}
+ul li::before{content: "\2615"; padding-right: 8px;} 
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+
+.efecto{
+    background-color: rgba(137, 43, 226, 0.288);
+    width: fit-content;
+    border: 20% solid wheat;
+    height: 75%;
+    font-size: 75%;
+    transition: height 1.5s, font-size 1.5s background-color 0.5s;
+}
+
+.efecto:hover{
+    background-color: rgba(230, 142, 10, 0.651);
+    height: 150%;
+    font-size: 150%;
+    transition: height 0.5s, font-size 1.5s;
+}
+
+.rainbow_1{
+    text-align: center;
+    vertical-align: middle;
+    border: 2px dotted grey;
+    width: 200px;
+    height: 200px;
+    animation-name: rbg;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes rbg{
+    0%{
+        background-color: rgba(255, 0, 0, 0.705);}
+    25%{
+        background-color: rgba(0, 0, 255, 0.575);}
+    50%{
+        background-color: rgba(0, 128, 0, 0.651);}
+    75%{
+        background-color: rgba(255, 255, 0, 0.582);}
+    100%{
+        background-color: rgba(255, 0, 0, 0.623);}
+}
