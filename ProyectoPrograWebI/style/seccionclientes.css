@@ -1,0 +1,43 @@
+.circle-image img {
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #4CAF50;
+  }
+  
+  .team-photo {
+    max-width: 100%;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .people {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .group {
+    margin: 15px;
+    width: calc(25% - 40px);
+  }
+  
+  .group h3 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .group ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .group li {
+    margin-bottom: 10px;
+  }
+  
+  
