@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
 	<head>
-	  <title>Programación Web I</title>
-	  <meta charset="utf-8">
-	  <meta name="viewport" content="width=device-width, initial-scale=1">
-	  <link rel="stylesheet" href="style/bootstrap.min.css">
-	  <link rel="stylesheet" href="style/sitio.css">
+		<title>Programación Web I</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="style/bootstrap.min.css">
+    	<link rel="stylesheet" href="style/carrousel.css">
+    	<link rel="stylesheet" href="style/sitio.css">
+		<link rel="stylesheet" href="style/seccionclientes.css">
+    	<script src="script/carroucel.js"></script>
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</head>
@@ -26,13 +29,20 @@
 				<li class="dropdown">
 				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Universidad<span class="caret"></span></a>
 				  <ul class="dropdown-menu" role="menu">
-					<li><a href="#" id="p1_11" onclick="cargaPractica('html/p1/ejercicio_1-1.html');return false;">Presentación</a></li>
-					<li><a href="#" id="p1_12" onclick="cargaPractica('html/p1/ejercicio_1-2.html');return false;">Historia</a></li>
+			<li><a href="#" id="p1_11" onclick="cargaPractica('html/p1/ejercicio_1-1.html');return false;">Presentación</a></li>
+          	<li class="divider"></li>
+			<li><a href="#" id="p1_12" onclick="cargaPractica('html/p1/ejercicio_1-2.html');return false;">Historia</a></li>
+          <li class="divider"></li>
 					<li><a href="#" id="p1_13" onclick="cargaPractica('html/p1/ejercicio_1-3.html');return false;">Misión</a></li>
+          <li class="divider"></li>
 					<li><a href="#" id="p1_14" onclick="cargaPractica('html/p1/ejercicio_1-3.html');return false;">Misión</a></li>
+          <li class="divider"></li>
 					<li><a href="#" id="p1_13" onclick="cargaPractica('html/p1/ejercicio_1-3.html');return false;">Vision</a></li>
+          <li class="divider"></li>
 					<li><a href="#" id="p1_13" onclick="cargaPractica('html/p1/ejercicio_1-3.html');return false;">Directorio</a></li>
+          <li class="divider"></li>
 					<li><a href="#" id="p1_13" onclick="cargaPractica('html/p1/ejercicio_1-3.html');return false;">Instalaciones</a></li>
+          <li class="divider"></li>
 					<li><a href="#" id="p1_13" onclick="cargaPractica('html/p1/ejercicio_1-3.html');return false;">Ubicación</a></li>
 				  </ul>
 				</li>
@@ -62,7 +72,9 @@
 				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Vinculación<span class="caret"></span></a>
 				  <ul class="dropdown-menu" role="menu">
 					<li><a href="#" id="p1_1" onclick="cargaPractica('html/t/ejercicio_1-1.html');return false;">Trámite de egreso</a></li>
+          <li class="divider"></li>
 					<li><a href="#" id="p1_2" onclick="cargaPractica('html/t/ejercicio_1-2.html');return false;">Bolsa de trabjo</a></li>
+          <li class="divider"></li>
 					<li><a href="#" id="p1_3" onclick="cargaPractica('html/t/ejercicio_1-3.html');return false;">Seguimiento</a></li>
 				  </ul>
 				</li>
@@ -92,7 +104,54 @@
 			<div class="col-sm-2 sidenav">
 			</div>
 			<div class="col-sm-8 text-left" id="content" style="height: 800px"> 
-				<!-- Contenido -->
+		<!-- Contenido -->
+		<!--Carrusel imagenes-->
+        <section>
+          <img src="imgs/carru1.jpg" alt="">
+          <img src="imgs/carru2.jpg" alt="">
+          <img src="imgs/carru3.jpg" alt="">
+        </section>
+		<h2>Las imagenes son temporales en lo que veo como arreglar el carrucel de manera diferente</h2>
+		<!--seccion personal,aspirants.etc en pag principal-->
+        <div class="team-photo">
+          <div class="people">
+            <div class="group">
+				<div class="circle-image">
+					<img src="https://www.upslp.edu.mx/upslp/wp-content/uploads/2020/08/aspirantes_3.jpg" alt="">
+				</div>
+              <h3>Aspirantes</h3>
+              <ul>
+              </ul>
+            </div>
+            <div class="group">
+				<div class="circle-image">
+					<img src="https://www.upslp.edu.mx/upslp/wp-content/uploads/2020/08/alumnos_3.jpg" alt="">
+				</div>
+              <h3>Alumnos</h3>
+              <ul>
+                <!-- list of alumnos -->
+              </ul>
+            </div>
+            <div class="group">
+				<div class="circle-image">
+					<img src="https://www.upslp.edu.mx/upslp/wp-content/uploads/2020/08/docentes_3.jpg" alt="">
+				</div>
+              <h3>Docentes</h3>
+              <ul>
+                <!-- list of docentes -->
+              </ul>
+            </div>
+            <div class="group">
+				<div class="circle-image">
+					<img src="https://www.upslp.edu.mx/upslp/wp-content/uploads/2023/03/administrativos_3n.png" alt="">
+				</div>
+              <h3>Administrativos</h3>
+              <ul>
+                <!-- list of administrativos -->
+              </ul>
+            </div>
+          </div>
+        </div>
 			</div>
 			<div class="col-sm-2 sidenav">
 			</div>
