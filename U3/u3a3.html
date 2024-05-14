@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>programacion web</title>
+    <style>
+        iframe{
+            style-border: 3px dashed black;
+        }
+    </style>
+    <script>
+        //document.body.style.backgroundColor = 'black'
+        console.log(eval('3+5*4-2'));
+        console.log(eval('(3+5)*(4-2)'));
+        console.log(eval('3+(5*4)-2'));
+        console.log(eval('(3+5)*4-2'));
+        console.log(eval('3+5*(4-2)'));    
+        
+    </script>
+</head>
+<body>
+
+    <h1>elementos externos</h1>
+    <p style="text-align: center;">
+        <iframe height="400" width="640" src="https://es.wikipedia.org/wiki/Juegos_Ol%C3%ADmpicos">contenedor de paginas</iframe>
+    </p>
+    <p style="text-align: left;">
+        <iframe height="400" width="640" src="https://www.upslp.edu.mx/upslp/">contenedor de paginas</iframe>
+    </p>
+    <h1>Lista con JS</h1>
+    <ol>
+        <li id="item_1"></li>
+        <li id="item_2"></li>
+        <li id="item_3"></li>
+        <li id="item_4"></li>
+        <li id="item_5"></li>
+    </ol>
+    <script>
+        document.body.style.backgroundColor = 'antiquewhite'
+        document.getElementById('item_1').innerHTML = 'UPSLP';
+        document.getElementById('item_2').innerHTML = 'UVM';
+        document.getElementById('item_3').innerHTML = 'UASLP';
+        document.getElementById('item_4').innerHTML = 'ASASD';
+        document.getElementById('item_5').innerHTML = 'ASDASQW';
+    </script>
+    <h1>Hola Mundo JavaScript</h1>
+    <p>
+        Consola:
+        <code>console.log("hola munfp);</code>
+        <script>
+        console.log("holamundo");
+        </script>
+    </p>
+    <p>
+        Document:
+        <script>document.write("hola mundo")</script>
+    </p>
+    <p>
+        Alert:
+        <script>alert("hola mundo")</script>
+        <br>
+        Confirm:
+        <script>
+            confirm("¿Estas seguro de que quieres continuar?");
+        </script>
+        <br>
+        <script>
+            var nombre = prompt("¿Cual es tu nombre?");
+            document.write("Hola " + nombre);
+        </script>
+    </p>
+    <h1>ejemplos</h1>
+    <script>
+        if (confirm("Aceptas entregar acceso?") == true) {
+            location.href = "https://www.google.com/intl/es-419/gmail/about/";
+            document.write("Acceso concedido");
+        } else {
+            document.write("Acceso denegado");
+        }
+        
+        do {
+            var intentos = 0;
+            var clave = MathMLElement(Math.random() * 100);
+            var password = " ";
+            var bandera = true;
+            password = prompt("adivina numero\n" + intentos  + "intentos");
+            intentos = intentos + 1;
+            console.log("clave: " + clave + " Valor: "+ password + " Intentos: " + intentos);
+
+            if (password > clave) 
+            {
+                alert("incorrecto es mayor");
+            }else if (password < clave) 
+            {
+                alert("incorrecto es menor");
+            }else
+            {
+                bandera = false;
+                alert("Acesso concedido " + intentos + "intentos");
+            }
+        } while (password == clave);
+    </script>
+</body>
+</html>

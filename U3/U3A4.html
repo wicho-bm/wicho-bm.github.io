@@ -1,0 +1,72 @@
+<!--PROGRAMACION WEB 1
+    UNIDAD PARCIAL 3
+    FECHA: 25 ABRIL 2024
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body onload="validaCookie()">
+  <h1>Eventos en JS</h1>
+  <button onclick="holamundo()">Saludar</button>
+  <p id="text" style="border: 2px dashed black;" onmouseover="ratonIn(this)" onmouseout="ratonOut(this)"></p>
+  <h2>Ejemplo</h2>
+  <fieldset>
+    <legend>Saludar...</legend>
+    <label>Escribe una cadena de texto: </label>
+    <input type="text" id="textEjemplo" placeholder="Ejemplo">
+    <input type="button" value="Saluda" onclick="saluda()">
+  </fieldset>
+  <fieldset>
+    <label for="">Figuras</label>
+    <label for="">Selecciona la figura:</label>
+    <select name="" id="tipoFigura">
+      <option value="0">Opcion</option>
+      <option value="1">Triangulo</option>
+      <option value="2">cuadrado</option>
+      <option value="3">Circulo</option>
+    </select>
+    <br>
+    <label for="">Dame el valor del dato:</label>
+    <input type="number" id="valorDato" placeholder="Valor">
+    <br>
+    <input type="button" value="Calcular" onclick="calcula()">
+    <br>
+    <label for="">Resultado:</label>
+    <input type="number" id="valorResultado" placeholder="Resultado" readonly>
+  </fieldset>
+  <!--Inicial JS-->
+  <script>
+    function calcula() {
+      let tipoFigura = document.getElementById('tipoFigura').value;
+      console.log('Tipo fifura: '+ tipoFigura)
+      let valorDato = document.getElementById('valorDato').value;
+      console.log('Valor dato: '+ valorDato);
+      switch (tipoFigura) {
+        case "1":
+          valorResultado = (valorDato * valorDato) / 2 ;
+          break;
+        case "2":
+          valorResultado = valorDato * valorDato;
+          break;
+        case "3":
+          valorResultado = Math.PI * Math.pow(valorDato,2);
+          break;
+      }
+      document.getElementById("valorResultado").value = valorResultado;
+    }
+    function saluda() {
+      nombre = document.getElementById('textEjemplo').value;
+      alert('Hola' + nombre);
+    }
+    function holamundo() {
+      document.getElementById("text").innerHTML += "<br>Hola Mundo!!";
+    }
+  </script>
+</body>
+</html>
