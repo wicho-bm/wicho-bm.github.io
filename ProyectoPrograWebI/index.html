@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Programación Web I</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style\bootstrap.min.css">
+    <link rel="stylesheet" href="style\carrousel.css">
+    <link rel="stylesheet" href="style\sitio.css">
+    <link rel="stylesheet" href="style\seccionclientes.css">
+    <script src="script/carroucel.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        header {
+            display: flex;
+            justify-content: space-between; /* Alinea los elementos en los extremos */
+            align-items: center; /* Centra verticalmente los elementos */
+            padding: 10px; /* Añade un poco de espacio alrededor */
+        }
+    </style>
+</head>
+    <body>
+        
+		<script src="script\funciones.js"></script>
+		<nav class="navbar navbar-default">
+		  <div class="container-fluid">
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>                        
+			  </button>
+			  <a class="navbar-brand" href="index.html">INICIO</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+			  <ul class="nav navbar-nav">
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">UPSLP<span class="caret"></span></a>
+				  <ul class="dropdown-menu" role="menu">
+			<li><a href="nuestrau.html" id="NUESTRA_UNI" onclick="cargaPractica('nuestrau.html');return false;">NUESTRA UNIVERSIDAD</a></li>
+          	<li class="divider"></li>
+			<li><a href="model.html" id="Modelo Academico" onclick="cargaPractica('model.html');return false;">MODELO ACAD&Eacute;MICO</a></li>
+          <li class="divider"></li>
+					<li><a href="directorio.html" id="Directorio" onclick="cargaPractica('directorio.html');return false;">DIRECTORIO</a></li>
+				  </ul>
+				</li>
+				<!--Nav columna 2-->
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">CON&Oacute;CENOS<span class="caret"></span></a>
+				  <ul class="dropdown-menu" role="menu">
+					<li><a href="#" id="p2_11" onclick="cargaPractica('html/p2/ejercicio_1-1.html');return false;">CENTROS Y LABORATORIOS</a></li>
+					<li class="divider"></li>
+					<li><a href="#" id="p2_12" onclick="cargaPractica('html/p2/ejercicio_1-2.html');return false;">EXTENSI&Oacute;N UNIVERSITARIA</a></li>
+					<li class="divider"></li>
+					<li><a href="#" id="p2_13" onclick="cargaPractica('html/p2/ejercicio_1-3.html');return false;">CULTURA Y DEPORTES</a></li>
+					<li class="divider"></li>
+				  </ul>
+				</li>
+				<!--Nav columna 3-->
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">OFERTA EDUCATIVA<span class="caret"></span></a>
+				  <ul class="dropdown-menu" role="menu">
+					<li><a href="#" id="p3_11" onclick="cargaPractica('html/p3/ejercicio_3-1.html');return false;">INGENIER&Iacute;A EN SISTEMAS Y TECNOLOG&Iacute;AS INDUSTRIALES (ISTI)</a></li>
+					<li class="divider"></li>
+					<li><a href="#" id="p3_12" onclick="cargaPractica('html/p3/ejercicio_3-2.html');return false;">INGENIER&Iacute;A EN TECNOLOG&Iacute;AS DE LA INFORMACI&Oacute;N (ITI)</a></li>
+					<li class="divider"></li>
+					<li><a href="#" id="p3_12" onclick="cargaPractica('html/p3/ejercicio_3-2.html');return false;">INGENIER&Iacute;A EN TELEM&Aacute;TICA (ITEM)</a></li>
+					<li class="divider"></li>
+					<li><a href="#" id="p3_12" onclick="cargaPractica('html/p3/ejercicio_3-2.html');return false;">INGENIER&Iacute;A EN TECNOLOG&Iacute;AS DE MANUFACTURA (ITMA)</a></li>
+					<li class="divider"></li>
+					<li><a href="#" id="p3_12" onclick="cargaPractica('html/p3/ejercicio_3-2.html');return false;">LICENCIATURA EN MERCADOTECNIA INTERNACIONAL (LMI)</a></li>
+					<li class="divider"></li>
+					<li><a href="#" id="p3_12" onclick="cargaPractica('html/p3/ejercicio_3-2.html');return false;">LICENCIATURA EN ADMINISTRACI&Oacute;N Y GESTI&Oacute;N (LAG)</a></li>
+				</ul>
+				</li>
+
+				<!--Nav columna 3-->
+				<li>
+				<a href="#">EGRESADOS</a>
+				</li>
+				<li>
+					<a href="#">BOLSA DE TRABAJO</a>
+				</li>
+				<li>
+					<a href="#">ENGLISH</a>
+				</li>
+				 <ul class="nav navbar-nav navbar-right">
+				<li><a href="#">Ene-Jun 2024</a></li>
+			  </ul>
+			</div>
+		  </div>
+		</nav>
+        <header>
+            <div class="logo-container">
+                <img src="imgs/UPSLP (Logo) (1).jpg" height="70px" width="100px" alt="">
+            </div>
+            <div class="social-links" >
+                <a href="https://www.facebook.com/tupagina"><img src="imgs/facebook.png" height="30px" width="30px"  alt="Facebook"></a>
+                <a href="https://twitter.com/tupagina"><img src="imgs/gorjeo.png" height="30px" width="30px" alt="Twitter"></a>
+                <a href="https://twitter.com/tupagina"><img src="imgs/telegrama.png" height="30px" width="30px" alt="Twitter"></a>
+                <a href="https://twitter.com/tupagina"><img src="imgs/youtube.png" height="30px" width="30px" alt="Twitter"></a>
+                <a href="https://twitter.com/tupagina"><img src="imgs/instagram.png" height="30px" width="30px" alt="Twitter"></a>
+            </div>
+        </header>
+		<div class="container-fluid text-center">    
+		  <div class="row content">
+			<div class="col-sm-2 sidenav">
+			</div>
+			<div class="col-sm-8 text-left" id="content" style="height: 800px"> 
+		<!-- Contenido -->
+		<!--Carrusel imagenes-->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+        
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="imgs\dssd.jpg" alt="Slide 1">
+                </div>
+        
+                <div class="item">
+                    <img src="imgs\xd2.jpg" alt="Slide 2">
+                </div>
+        
+                <div class="item">
+                    <img src="imgs\xd.jpg" alt="Slide 3">
+                </div>
+            </div>
+        
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <div class="team-photo">
+            <div class="people">
+              <div class="group">
+                  <div class="circle-image">
+                      <img src="imgs\aspirantes_3.jpg" alt="aspirantes">
+                  </div>
+                <h3>Aspirantes</h3>
+                <ul>
+                </ul>
+              </div>
+              <div class="group">
+                  <div class="circle-image">
+                      <img src="imgs\alumnos_3.jpg" alt="alumnos">
+                  </div>
+                <h3>Alumnos</h3>
+                <ul>
+                  <!-- list of alumnos -->
+                </ul>
+              </div>
+              <div class="group">
+                  <div class="circle-image">
+                      <img src="imgs\docentes_3.jpg" alt="docentes">
+                  </div>
+                <h3>Docentes</h3>
+                <ul>
+                  <!-- list of docentes -->
+                </ul>
+              </div>
+              <div class="group">
+                  <div class="circle-image">
+                      <img src="imgs\administrativos_3n.png" alt="administrativos">
+                  </div>
+                <h3>Administrativos</h3>
+                <ul>
+                  <!-- list of administrativos -->
+                </ul>
+              </div>
+            </div>
+          </div>
+              </div>
+              <div class="col-sm-2 sidenav">
+              </div>
+            </div>
+          </div>
+		  </div>
+		</div>
+		<footer class="container-fluid text-center">
+		  <p>184914 Luis Enrique Briano Montalvo</p>
+		  <p>183705 Cesar Aaron Corpus Galarza</p>
+		  <p>Ingeniería en Tecnologias de la Informacion</p>
+		</footer>
+</body>
+</html>
