@@ -1,0 +1,80 @@
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 100%}
+
+/* Set gray background color and 100% height */
+.sidenav {
+  padding-top: 20px;
+  background-color: #f1f1f1;
+  height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+  background-color: #e77817;
+  color: white;
+  padding: 15px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 600px) {
+  .sidenav {
+	height: auto;
+	padding: 15px;
+  }
+  .row.content {height:auto;}
+}
+.social-links {
+    text-align: right; /* Alinea el contenido a la derecha */
+}
+.social-links a {
+    margin-left: 10px; /* Añade un espacio entre cada enlace */
+}
+.header_blue {
+  text-align: center; /* Centra el texto horizontalmente */
+  color:  #082251; /* Color azul */
+}
+.center-image {
+  display: block; /* Para que el margen funcione correctamente */
+  margin: auto; /* Centra horizontalmente */
+  width: 50%; /* Ajusta el ancho de la imagen al 80% del ancho del contenedor */
+  max-width: 800px; /* Establece un ancho máximo para la imagen */
+}
+.blue-subtitle {
+  color:#082251; /* Color azul */
+}
+.correo_ama {
+  color: #e77817; /* Color azul */
+}
+.two-column-container {
+  display: flex;
+}
+
+.column {
+  flex: 1; /* Distribuye el espacio entre las columnas */
+  padding: 20px; /* Añade espacio alrededor del contenido */
+}
+
+.column:nth-child(odd) {
+  background-color: #f2f2f2; /* Cambia el color de fondo de las columnas impares (opcional) */
+}
+.bullet-list {
+  list-style-type: disc; /* Utiliza palomitas como marcadores */
+  padding-left: 20px; /* Añade espacio a la izquierda para las palomitas */
+}
+.two-column-list {
+  column-count: 2; /* Divide la lista en dos columnas */
+  column-gap: 40px; /* Añade espacio entre las columnas */
+  padding-left: 0; /* Elimina el espacio a la izquierda de la lista */
+}
+
+.two-column-list li {
+  margin-bottom: 10px; /* Añade espacio entre los elementos de la lista */
+}
+
+
