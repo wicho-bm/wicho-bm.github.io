@@ -1,0 +1,49 @@
+
+.container {
+    display: flex;
+    border: 1px solid #ddd;
+    background-color: white;
+    max-width: 1000px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-gallery {
+    width: 75%;
+    padding: 10px;
+}
+
+.image-gallery img {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.text-section {
+    background-color: #ddd;
+    width: 25%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-section h2 {
+    margin-top: 0;
+}
+
+.text-section p {
+    flex-grow: 1;
+}
+
+.text-section button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.text-section button:hover {
+    background-color: #0056b3;
+}
