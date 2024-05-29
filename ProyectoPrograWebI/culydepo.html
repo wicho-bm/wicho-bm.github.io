@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/sitio.css">
-    <link rel="stylesheet" href="style/carruselculydep.css">
-    <script src="script/carruselculydep.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style\bootstrap.min.css">
+    <link rel="stylesheet" href="style\carrousel.css">
+    <link rel="stylesheet" href="style\sitio.css">
+    <link rel="stylesheet" href="style\seccionclientes.css">
+    <script src="script/carroucel.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <title>Cultura y Deportes</title>
 </head>
 <body>
@@ -37,19 +41,171 @@
             <li>Coro</li>
         </ul>
     </div>
+    <h2 class="header_blue">CULTURAL</h2><br>
+    <p>La universidad cuenta con varios eventos culturales, tales como:</p>
+    <h3 class="blue-subtitle">ITI EXPERIENCE</h3>
+    <p>El Capítulo Estudiantil de Ingeniería en Tecnologías de la Información (ITI) de la Universidad Politécnica de San Luis Potosí, llevó a cabo el evento ITI Experience en su tercera edición, que se desarrolló del 4 al 9 de mayo ofreciendo una amplia gama de actividades diseñadas para enriquecer la experiencia educativa de los participantes.</p>
 
-    <div class="carousel-container">
-        <div class="carousel">
-            <img src="imgs/Cultura-y-Deporte-web1.jpg" alt="Imagen 1" class="carousel-image">
-            <img src="imgs/Cultura-y-Deporte-web2.jpg" alt="Imagen 2" class="carousel-image">
-            <img src="imgs/Cultura-y-Deporte-web3.jpg" alt="Imagen 3" class="carousel-image">
-            <img src="imgs/Cultura-y-Deporte-web4.jpg" alt="Imagen 4" class="carousel-image">
-            <img src="imgs/Cultura-y-Deporte-web5.jpg" alt="Imagen 5" class="carousel-image">
-            <img src="imgs/Cultura-y-Deporte-web6.jpg" alt="Imagen 6" class="carousel-image">
+  <p>Este evento, creado por y para estudiantes, estuvo dirigido por la presidenta del Capítulo Estudiantil, Adela Martínez Galván, quien contó con el invaluable apoyo de la Dra. Liliana Gámez Zavala, profesora de la Academia de ITI, y del Coordinador Académico, Dr. Juan Antonio Cabrera Rico.</p>
+
+  <p>Entre las actividades destacaron diversos talleres que fomentaron el aprendizaje práctico, concursos que incentivaron la creatividad y la competencia sana, una visita instructiva a IPICYT que permitió a los estudiantes conocer de cerca las innovaciones tecnológicas, y un panel de egresados, donde compartieron sus conocimientos y experiencias.</p>
+
+  <p>Este conjunto de actividades fue pensado para proporcionar a los estudiantes oportunidades de desarrollo académico y profesional en un entorno dinámico y colaborativo.</p>
+
+  <p>El evento dio inicio el sábado 4 de mayo con el concurso de programación, organizado por la Dra. Liliana Gámez Zavala y el Ing. Gerardo Franco Delgado, en el que se presentaron una serie de desafíos a los estudiantes de programación, con el objetivo de evaluar y poner a prueba sus habilidades en este campo.</p>
+
+  <p>El 6 de mayo se llevaron a cabo los talleres: «¿Qué es GitHub?», impartido por el Ing. Víctor Hugo Jiménez Coronado, y «¿Por qué especializarte en redes siendo ITI?», dirigido por el Mtro. Italo Carlos Delfino Bautista Bautista. Gracias a su vasta experiencia y conocimiento, los estudiantes adquirieron una comprensión profunda sobre estos temas fundamentales.</p>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="imgs\itie.jpg" alt="Slide 1">
         </div>
-        <button class="carousel-button prev" onclick="prevSlide()">&#10094;</button>
-        <button class="carousel-button next" onclick="nextSlide()">&#10095;</button>
-    </div><br>
+
+        <div class="item">
+            <img src="imgs\itiexperience.jpg" alt="Slide 2">
+        </div>
+
+        <div class="item">
+            <img src="imgs\itiexperience2.jpg" alt="Slide 3">
+        </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+  <h2 class="header_blue">TALENTO POLITECNICO</h2>
+  <p>Como cada año, la Universidad Politécnica de San Luis Potosí (USLP) a través de la Academia de Núcleo General, realizó la Noche de Talento Politécnico en su edición 2024, donde se promueve e incentiva la convivencia entre la comunidad universitaria a través de un evento que expone talentos en canto, baile, instrumento musical y fotografía.</p>
+
+  <p>En esta ocasión, se contó con la participación de 71 concursantes por todas las categorías. Cada una de éstas, en las etapas de semifinal y final, fueron evaluadas por especialistas en la rama:</p>
+
+  <ul>
+    <li>Canto: Lic. José Ramírez Luevano, Lic. Marisol López Banda y Lic. Lourdes Adriana Rodríguez Niño</li>
+    <li>Instrumento musical: Lic. Ángel Olivares Ramírez, Ing. Carlos Alfonso Ramos López, Lic. Josué Benjamín Arana Romero y Francisco Julian Zamora Domínguez</li>
+    <li>Baile: Lic. Carlo Rodoban Valero Vázquez, Lic. Gerardo García Múñoz y Lic. Olga Margarita Martínez Apolo</li>
+    <li>Fotografía: Mtro. Mariano Esparza Barajas, María Mayela López Escalante y Lic. Eduardo Auch Diaz Rivera</li>
+  </ul>
+
+  <p>El gran final de la Noche de Talento Politécnico 2024 tuvo lugar el pasado 26 de abril, en el Auditorio ASA de la UPSLP. Los ganadores fueron:</p>
+
+  <h2>Categoría “Instrumento musical”</h2>
+  <ul>
+    <li>1er. Lugar: Marietta Montañez Álvarez, de Licenciatura en Mercadotecnia Internacional.</li>
+    <li>2o. Lugar: Luis Enrique Jiménez Cruz, de Laboratorio de Ingeniería en Tecnologías de Manufactura.</li>
+    <li>3er. Lugar: Sixto Iván Rivas Rangel, de Licenciatura en Mercadotecnia Internacional.</li>
+  </ul>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="imgs\noche1.jpg" alt="Slide 1">
+        </div>
+
+        <div class="item">
+            <img src="imgs\noche2.jpg" alt="Slide 2">
+        </div>
+
+        <div class="item">
+            <img src="imgs\noche3.jpg" alt="Slide 3">
+        </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+  <h2>Categoría “Baile”</h2>
+  <ul>
+    <li>1er. Lugar: Jose Armando Palomo Cerda, de Ingeniería en Tecnologías de la Información.</li>
+    <li>2o. Lugar: Karyme Del Ángel Izar, de Ingeniería en Sistemas y Tecnologías Industriales.</li>
+    <li>3er. Lugar: María José Muñoz Charqueño, de Licenciatura en Administración y Gestión.</li>
+  </ul>
+
+  <h2>Categoría “Canto”</h2>
+  <ul>
+    <li>1er. Lugar: Emiliano Dávila Guel, de Ingeniería en Tecnologías de Manufactura.</li>
+    <li>2o. Lugar: Leipzig Atlanta Heinz Castro, de Ingeniería en Sistemas y Tecnologías Industriales.</li>
+    <li>3er. Lugar: Karla Daniela Ruiz Pérez, de Ingeniería en Sistemas y Tecnologías Industriales.</li>
+  </ul>
+
+  <h2>Categoría “Fotografía”</h2>
+  <ul>
+    <li>1er. Lugar: Patricio Loredo Gómez, de Ingeniería en Sistemas y Tecnologías Industriales.</li>
+    <li>2o. Lugar: Jimena Moreno Acosta, de Ingeniería en Tecnologías de Manufactura.</li>
+    <li>3er. Lugar: Ángel Esteban Martínez Vega, de Ingeniería en Tecnologías de Manufactura.</li>
+  </ul>
+
+  <p>¡La UPSLP felicita a todas y todos los ganadores y agradece la participación de las y los estudiantes en este evento!</p>
+
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="imgs\Cultura-y-Deporte-web1.jpg" alt="Slide 1">
+        </div>
+
+        <div class="item">
+            <img src="imgs\Cultura-y-Deporte-web2.jpg" alt="Slide 2">
+        </div>
+
+        <div class="item">
+            <img src="imgs\Cultura-y-Deporte-web3.jpg" alt="Slide 3">
+        </div>
+        <div class="item">
+            <img src="imgs\Cultura-y-Deporte-web4.jpg" alt="Slide 3">
+        </div>
+        <div class="item">
+            <img src="imgs\Cultura-y-Deporte-web5.jpg" alt="Slide 3">
+        </div>        <div class="item">
+            <img src="imgs\Cultura-y-Deporte-web6.jpg" alt="Slide 3">
+        </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div><br>
     <p>Recientemente tuvimos la participación de nuestra universidad en la etapa estatal de la universiada 2015 con los siguientes equipos: <br><br>Con una destaca participación de los equipos de futbol rápido femenil, taekwondo, triatlón y tenis logrando el pase a la etapa regional. <br>Los equipos de futbol soccer varonil, futbol rápido femenil, basquetbol varonil y voleibol femenil actualmente se preparan para participar en el torneo nacional de Universidades Politécnicas que se llevara a cabo en la ciudad de Mazatlán Sinaloa los días 17 al 22 de marzo de 2015.</p>
 
 </body>

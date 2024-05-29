@@ -59,16 +59,29 @@
         <h2>Contacto</h2>
         <P>Deja tu correo para recibir informacion de tu futura carrera</P>
         <form action="#" method="post">
+            <input type="name" name="name" placeholder="Nombre Completo" required>
             <input type="email" name="email" placeholder="Correo Electrónico" required>
             <input type="number" name="nuero" placeholder="Numero de telefono" required>
             <select name="motivo" required>
-                <option value="" disabled selected>Selecciona una la carrera que quieres</option>
+                <option value="" disabled selected>Selecciona tu carrera</option>
                 <option value="consulta">ITI</option>
                 <option value="soporte">ITMA</option>
                 <option value="sugerencia">LAG</option>
                 <option value="otro">ISTI</option>
                 <option value="otro">ITEM</option>
                 <option value="otro">LMI</option>
+            </select>
+                        <select name="motivo" required>
+                <option value="" disabled selected>Selecciona tu smestre</option>
+                <option value="consulta">1</option>
+                <option value="soporte">2</option>
+                <option value="sugerencia">3</option>
+                <option value="otro">4</option>
+                <option value="otro">5</option>
+                <option value="otro">6</option>
+                <option value="otro">7</option>
+                <option value="otro">8</option>
+                <option value="otro">9</option>
             </select>
             <button type="submit">Enviar</button>
         </form>
