@@ -77,4 +77,32 @@ footer {
   margin-bottom: 10px; /* Añade espacio entre los elementos de la lista */
 }
 
+.container {
+  display: flex;
+  align-items: center;
+}
 
+.image-box {
+  flex: 1;
+}
+
+.image-box img {
+  width: 100%;
+  height: auto;
+}
+
+.text-box {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.read-more-btn {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 10px;
+  border-radius: 4px;
+}
