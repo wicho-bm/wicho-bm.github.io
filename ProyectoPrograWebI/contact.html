@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Contacto</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e77817;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .contact-container {
+            background-color: #fff;
+            padding: 50px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            text-align: center;
+        }
+
+        .contact-container h2 {
+            margin-bottom: 20px;
+        }
+
+        .contact-container input,
+        .contact-container select,
+        .contact-container button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact-container button {
+            background-color: #474a48;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .contact-container button:hover {
+            background-color: #141514;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contact-container">
+        <h2>Contacto</h2>
+        <P>Deja tu correo para recibir informacion de tu futura carrera</P>
+        <form action="#" method="post">
+            <input type="email" name="email" placeholder="Correo Electrónico" required>
+            <input type="number" name="nuero" placeholder="Numero de telefono" required>
+            <select name="motivo" required>
+                <option value="" disabled selected>Selecciona una la carrera que quieres</option>
+                <option value="consulta">ITI</option>
+                <option value="soporte">ITMA</option>
+                <option value="sugerencia">LAG</option>
+                <option value="otro">ISTI</option>
+                <option value="otro">ITEM</option>
+                <option value="otro">LMI</option>
+            </select>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+</body>
+</html>
